@@ -17,11 +17,11 @@ h1 {
     letter-spacing: 5px; 
     background-color:#E9F353;  
     padding: 10px; 
-    margin-right: 700px; 
+    margin-right: 66vw; 
 }
 
 img {
-    border-radius: 50%; 
+    border-radius: 30% 70%; 
     height: 200px;
     width: 200px;
 }
