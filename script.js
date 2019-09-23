@@ -24,8 +24,8 @@ function customersToHtml (customer) {
             <li><span class="customer_location">${customer.location.city}, ${nameToAbbr(customer.location.state)} ${customer.location.postcode}</span>
         </ul>  
         <ul class="dates">
-            <li><div class="customer_dob"> <strong>DOB:</strong> ${moment(customer.dob).format("MMM Do YYYY")}</div></li>
-            <li><div class="customer_since"><strong>Customer Since:</strong> ${moment(customer.registered).format("MMM Do YYYY")}</div></li>  
+            <li><div class="customer_dates"><strong>DOB:</strong> ${moment(customer.dob).format("MMM Do YYYY")}</div></li>
+            <li><div class="customer_dates"><strong>Customer Since:</strong> ${moment(customer.registered).format("MMM Do YYYY")}</div></li>  
         </ul>
     </div>    
     `
