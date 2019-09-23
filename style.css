@@ -5,10 +5,15 @@
     font-family: 'open sans', oswald;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 img {
-    border-radius: 50px; 
-    height: 100px;
-    width: 100px;
+    border-radius: 50%; 
+    height: 200px;
+    width: 200px;
 }
 
 #customers {
@@ -17,7 +22,7 @@ img {
     flex-wrap: wrap; 
     padding: 100px; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
     margin: 0 auto; 
     text-align: center; 
 }
@@ -37,4 +42,8 @@ img {
 
 ul {
     list-style-type: none; 
+}
+
+.dates {
+    margin-top: 10px; 
 }
