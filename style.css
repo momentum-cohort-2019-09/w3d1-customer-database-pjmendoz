@@ -54,6 +54,7 @@ img {
 
 .customer_location {
     font-family: 'Raleway', sans-serif;
+    text-transform: capitalize; 
 }
 
 .customer_dates {
