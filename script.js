@@ -4,7 +4,7 @@ function customersToHtml (customer) {
     return `
     <div class = "customers">
         <img src= ${customer.picture.medium}>
-        <div class= "customer_name">${customer.name.first}, ${customer.name.last}</div>  
+        <div class= "customer_name">${customer.name.first} ${customer.name.last}</div>  
         <div class="customer_email">${customer.email}</div>
         <div class="locations">
             <span class="customer_location">${customer.location.street}</span>
