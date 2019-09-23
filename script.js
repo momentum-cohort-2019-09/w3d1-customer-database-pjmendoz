@@ -6,6 +6,13 @@ const capitalize = str => str[0].toUpperCase() + str.slice(1)
 //     return array
 // }
 
+// function (string) {
+//     let words = string.split(" ")
+//     for (let i = 0; i < words.length; i++) {
+//         if ()
+//     }
+// }
+
 function customersToHtml (customer) {
     return `
     <div class = "customers">
@@ -14,7 +21,7 @@ function customersToHtml (customer) {
         <div class="customer_email">${customer.email}</div>
         <ul class="locations">
             <li><span class="customer_location">${(customer.location.street)}</span></li>
-            <li><span class="customer_location">${customer.location.city} ${nameToAbbr(customer.location.state)} ${customer.location.postcode}</span>
+            <li><span class="customer_location">${customer.location.city}, ${nameToAbbr(customer.location.state)} ${customer.location.postcode}</span>
         </ul>  
         <ul class="dates">
             <li><div class="customer_dob"> DOB: ${moment(customer.dob).format("MMM Do YYYY")}</div></li>
